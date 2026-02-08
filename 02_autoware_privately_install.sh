@@ -118,13 +118,17 @@ mkdir -p autoware_projects/images/output/AutoSpeed
 mkdir -p autoware_projects/images/output/AutoSteer
 
 
-echo "✅ Created weights folder structure"
+echo "✅ Created videos and images output folder structure"
 
 # Fix ownership if running as sudo
 if [ -n "$SUDO_USER" ]; then
-    chown -R $SUDO_USER:$SUDO_USER "$USER_HOME/autoware_projects/weights"
+    chown -R $SUDO_USER:$SUDO_USER "$USER_HOME/autoware_projects/videos"
 fi
 
+# Fix ownership if running as sudo
+if [ -n "$SUDO_USER" ]; then
+    chown -R $SUDO_USER:$SUDO_USER "$USER_HOME/autoware_projects/images"
+fi
 
 echo "✅ Step1 install completed successfully, now download the weights and run 03_autoware_weights_install.sh."
 echo "Please check the install.txt!"
