@@ -16,7 +16,7 @@ How to install all
     Copy the file to $HOME/Downloads
 
     Step 2. Download Autoware_privately_vehicle 
-    
+    cd $HOME
     git clone https://github.com/futurenowx/autoware_privately_x86_install.git
     
     3. Make install files executable
