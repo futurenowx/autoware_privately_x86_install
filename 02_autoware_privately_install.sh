@@ -25,21 +25,18 @@ mv autoware.privately-owned-vehicles/Models/visualizations \
    autoware.privately-owned-vehicles/Models/visualizations_old
    
 
-# Go to Downloads folder
-cd "$HOME" || { echo "❌ Cannot enter $Home folder"; exit 1; }
+# Go to $HOME/autoware_privately_x86_install folder
+cd "$HOME/autoware_privately_x86_install" || { echo "❌ Cannot enter $Home folder"; exit 1; }
 
 
 # Clone the repo (rename old folder if exists)
-if [ -d "autoware_privately_temp" ]; then
-    mv autoware_privately autoware_privately_old
-    echo "Existing folder renamed to autoware_privately_temp_old"
-fi
-
-
+#if [ -d "autoware_privately_x86_install" ]; then
+#    mv autoware_privately_x86_install_old
+#    echo "Existing folder renamed to autoware_privately_temp_old"
+#fi
 # Enter the cloned repo
-cd autoware_privately_temp || { echo "❌ folder autoware_privately_temp do not exist"; exit 1; }
-
-git clone https://github.com/futurenowx/autoware_privately_install.git
+#cd autoware_privately_x86_install || { echo "❌ folder autoware_privately_temp do not exist"; exit 1; }
+#git clone https://github.com/futurenowx/autoware_privately_install.git
 
 
 # copy folder visualization to autoware.privately-owned-vehicles/Models
