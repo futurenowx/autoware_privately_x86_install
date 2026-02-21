@@ -1,8 +1,8 @@
 how to install the requirements.txt
 
 the 01_requirements.txt are the basefiles you will need to get the applications run.
-a. You will find it in the folder home/autoware_privately_temp. 
-b. See 02_how_to_install_autoware_privatly_vehicle.txt
+You will find it in the folder home/autoware_vision_pilot_x86_install. 
+
 
 1. cd $HOME 
 
@@ -16,7 +16,7 @@ b. See 02_how_to_install_autoware_privatly_vehicle.txt
        sudo apt install -y python3-pip & sudo apt upgrade -y python3-pip
     - check again with  pip3 --version 
          
- 3. cd $HOME/autoware_privately_temp 
+ 3. cd $HOME/autoware_vision_pilot_x86_install
  
  
  
