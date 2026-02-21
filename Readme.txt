@@ -1,4 +1,4 @@
-Fork of https://github.com/autowarefoundation/autoware.privately-owned-vehicles/
+Fork of https://github.com/autowarefoundation/autoware_vision_pilot
 
 we update the python files in the folder Models/visualizations 
 
@@ -30,7 +30,7 @@ Step 1. Download the neccessary weights
 Step 2. Download Autoware_privately_vehicle 
 
 	cd $HOME
-	git clone https://github.com/futurenowx/autoware_privately_x86_install.git
+	git clone https://github.com/autowarefoundation/autoware_vision_pilot.git
 
 Step 3. Make install files executable
 
@@ -52,7 +52,7 @@ for example:
 
    cd $HOME
 
-   cd autoware.privately-owned-vehicles/Models/visualizations
+   cd autoware_vision_pilot/Models/visualizations
 
    python3 EgoLanes/video_visualization_preview.py   -p ~/autoware_projects/weights/EgoLanes/weights_egolanes.pth   -i ~/autoware_projects/videos/source/highway_stuttgart.mp4   -o ~/autoware_projects/videos/output/EgoLanes --show
 
